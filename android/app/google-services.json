@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "292191364679",
+    "project_id": "health-service-mongolia",
+    "storage_bucket": "health-service-mongolia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292191364679:android:57906d0405bfa36a5c7362",
+        "android_client_info": {
+          "package_name": "kll.c2m2.c2m2_mongolia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292191364679-igiu0r9m66m3tbbra52qkatpionea2uc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kll.c2m2.c2m2_mongolia",
+            "certificate_hash": "0f0a731a2067bfa8cc7e4b6df99610c041f4a95b"
+          }
+        },
+        {
+          "client_id": "292191364679-i9qvad789pufb08o4odf0b4v6bvjfeqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIxOhx5OB64dh7O7XxDSnCD1G8bskkHPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292191364679-i9qvad789pufb08o4odf0b4v6bvjfeqf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "292191364679-r8i7urdc4758s15l8vq5ujf405ol50k0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kll.c2m2.c2m2Mongolia"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

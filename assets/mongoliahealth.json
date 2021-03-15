@@ -1,0 +1,4668 @@
+{
+  "success": true,
+  "message": "Features fetched successfully!",
+  "geometries": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "node/1241686940",
+        "properties": {
+          "type": "node",
+          "id": 1241686940,
+          "tags": {
+            "amenity": "dentist"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9248786,
+            47.90429
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/1888086204",
+        "properties": {
+          "type": "node",
+          "id": 1888086204,
+          "tags": {
+            "amenity": "dentist",
+            "wheelchair": "no"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9176302,
+            47.900039
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/1933312366",
+        "properties": {
+          "type": "node",
+          "id": 1933312366,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "AlphaDent"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9183066,
+            47.9270206
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2293332639",
+        "properties": {
+          "type": "node",
+          "id": 2293332639,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Mongolian dentist centre"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9139218,
+            47.9180014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2522918899",
+        "properties": {
+          "type": "node",
+          "id": 2522918899,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Мондент шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9173298,
+            47.9271502
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2863521983",
+        "properties": {
+          "type": "node",
+          "id": 2863521983,
+          "tags": {
+            "amenity": "dentist"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9106276,
+            47.928206
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3053999771",
+        "properties": {
+          "type": "node",
+          "id": 3053999771,
+          "tags": {
+            "amenity": "dentist",
+            "wheelchair": "no"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9191561,
+            47.9023885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3676199871",
+        "properties": {
+          "type": "node",
+          "id": 3676199871,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Agape"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9130454,
+            47.9129366
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3886060507",
+        "properties": {
+          "type": "node",
+          "id": 3886060507,
+          "tags": {
+            "addr:housenumber": "2",
+            "addr:street": "Б.Ренчингийн Гудамж",
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Шүдний эмнэлэг",
+            "name:mn": "Dental clinic"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.91281,
+            47.9129396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3892019176",
+        "properties": {
+          "type": "node",
+          "id": 3892019176,
+          "tags": {
+            "amenity": "dentist",
+            "name": "Хопе (Hope)"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8984004,
+            47.9157868
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3894597498",
+        "properties": {
+          "type": "node",
+          "id": 3894597498,
+          "tags": {
+            "amenity": "dentist"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8816242,
+            47.9238769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3896149800",
+        "properties": {
+          "type": "node",
+          "id": 3896149800,
+          "tags": {
+            "amenity": "dentist",
+            "name": "Уран Шүдний эмнэлэг",
+            "name:en": "Uran dental hospital"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9262828,
+            47.9295092
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3896158886",
+        "properties": {
+          "type": "node",
+          "id": 3896158886,
+          "tags": {
+            "amenity": "dentist"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9027199,
+            47.9126462
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3896247951",
+        "properties": {
+          "type": "node",
+          "id": 3896247951,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.927009,
+            47.9259048
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3896356788",
+        "properties": {
+          "type": "node",
+          "id": 3896356788,
+          "tags": {
+            "amenity": "dentist",
+            "name": "Шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8798051,
+            47.9224296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3896724069",
+        "properties": {
+          "type": "node",
+          "id": 3896724069,
+          "tags": {
+            "amenity": "dentist",
+            "name": "Шүдний эмнэлэг",
+            "toilets:wheelchair": "no",
+            "wheelchair": "no"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9069713,
+            47.918742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3898549192",
+        "properties": {
+          "type": "node",
+          "id": 3898549192,
+          "tags": {
+            "amenity": "dentist",
+            "name": "Энхцовоо дент Шүдний Эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8322827,
+            47.9116307
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3898586133",
+        "properties": {
+          "type": "node",
+          "id": 3898586133,
+          "tags": {
+            "amenity": "dentist",
+            "name": "Шүдний Эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8383119,
+            47.9147167
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3901552017",
+        "properties": {
+          "type": "node",
+          "id": 3901552017,
+          "tags": {
+            "amenity": "dentist",
+            "name": "Шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9414834,
+            47.9222951
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3902600019",
+        "properties": {
+          "type": "node",
+          "id": 3902600019,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9192645,
+            47.92601
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3902612887",
+        "properties": {
+          "type": "node",
+          "id": 3902612887,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Мондент шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9172894,
+            47.9273537
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3904299780",
+        "properties": {
+          "type": "node",
+          "id": 3904299780,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Номиун шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.91108,
+            47.9232641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3904540294",
+        "properties": {
+          "type": "node",
+          "id": 3904540294,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Эрүүл инээмсэглэл шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9111379,
+            47.9265408
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3904816211",
+        "properties": {
+          "type": "node",
+          "id": 3904816211,
+          "tags": {
+            "amenity": "dentist",
+            "name": "Гандент шүдний эмнэлэг",
+            "toilets:wheelchair": "no",
+            "wheelchair": "limited",
+            "wheelchair:description": "tsahilgaan shattai , gadnaa naluu shattai"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9010732,
+            47.9188906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3910608157",
+        "properties": {
+          "type": "node",
+          "id": 3910608157,
+          "tags": {
+            "addr:street": "Амарсанаагийн гудамж",
+            "amenity": "dentist",
+            "name": "Дентофреш"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.890097,
+            47.922591
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3912810555",
+        "properties": {
+          "type": "node",
+          "id": 3912810555,
+          "tags": {
+            "amenity": "dentist",
+            "name": "My dent шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.940976,
+            47.9125102
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3912826502",
+        "properties": {
+          "type": "node",
+          "id": 3912826502,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "cuticul"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.940749,
+            47.926286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3913869128",
+        "properties": {
+          "type": "node",
+          "id": 3913869128,
+          "tags": {
+            "amenity": "dentist",
+            "name": "DENTAL GROUP Шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9302625,
+            47.9091069
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3913878097",
+        "properties": {
+          "type": "node",
+          "id": 3913878097,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Бүрэн Дент"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9354321,
+            47.9169616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3913880134",
+        "properties": {
+          "type": "node",
+          "id": 3913880134,
+          "tags": {
+            "addr:city": "Улаанбаатар",
+            "addr:street": "Замчдын гудамж",
+            "amenity": "dentist",
+            "name": "Шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8773069,
+            47.9102845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4029456392",
+        "properties": {
+          "type": "node",
+          "id": 4029456392,
+          "tags": {
+            "addr:city": "Улаанбаатар",
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "UB Osstem clinic",
+            "toilets:wheelchair": "yes",
+            "wheelchair": "yes"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9109148,
+            47.913899
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4029472089",
+        "properties": {
+          "type": "node",
+          "id": 4029472089,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Цагаан гантиг",
+            "toilets:wheelchair": "no",
+            "wheelchair": "no"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9114083,
+            47.9178071
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4218731590",
+        "properties": {
+          "type": "node",
+          "id": 4218731590,
+          "tags": {
+            "addr:street": "Б.Доржийн гудамж",
+            "amenity": "dentist",
+            "internet_access": "wlan",
+            "name": "\"САЙН Дент\" шүдний эмнэлэг 24 цаг",
+            "opening_hours": "24/7",
+            "phone": "99172207"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9449708,
+            47.9274703
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4411515689",
+        "properties": {
+          "type": "node",
+          "id": 4411515689,
+          "tags": {
+            "addr:housenumber": "1",
+            "addr:street": "Туслах зам",
+            "amenity": "dentist",
+            "email": "monkhorenkhbold@yahoo.com",
+            "opening_hours": "Mo-Su 08:00-20:00",
+            "phone": "99168777"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9246768,
+            47.9289673
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4464567698",
+        "properties": {
+          "type": "node",
+          "id": 4464567698,
+          "tags": {
+            "addr:housenumber": "Сутай төв 3давхар",
+            "addr:street": "Нам Ян Жү-гийн гудамж",
+            "amenity": "dentist",
+            "name": "ЗОСЫН ГОЛ шүдний эмнэлэг",
+            "name:en": "ZOSIIN GOL dental clinic",
+            "opening_hours": "Mo-Fr 10:00-19:00; Sa 11:00-18:00",
+            "phone": "89206015"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.943675,
+            47.9131493
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4548174214",
+        "properties": {
+          "type": "node",
+          "id": 4548174214,
+          "tags": {
+            "addr:street": "Энх тайваны өргөн чөлөө",
+            "amenity": "dentist",
+            "internet_access": "wlan",
+            "name": "Од дент шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.862965,
+            47.915678
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4681084391",
+        "properties": {
+          "type": "node",
+          "id": 4681084391,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Шүд эрүү нүүрний эмгэг судлалын төв"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9265269,
+            47.9170005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4721490493",
+        "properties": {
+          "type": "node",
+          "id": 4721490493,
+          "tags": {
+            "addr:housenumber": "64-р байр",
+            "addr:street": "Нам Ян Жү-гийн гудамж",
+            "amenity": "dentist",
+            "name": "Юу Кэй Эм шүдний эмнэлэг",
+            "name:en": "UKM dental clinic",
+            "name:mn": "Юу Кэй Эм шүдний эмнэлэг",
+            "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00",
+            "phone": "976 99855844"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9493782,
+            47.9127197
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5078045121",
+        "properties": {
+          "type": "node",
+          "id": 5078045121,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Ортосол",
+            "name:en": "Orthosol",
+            "name:mn": "Ортосүүл"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9258502,
+            47.9209615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5078045122",
+        "properties": {
+          "type": "node",
+          "id": 5078045122,
+          "tags": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name:en": "Orthosoldent"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9258878,
+            47.9209251
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5178137040",
+        "properties": {
+          "type": "node",
+          "id": 5178137040,
+          "tags": {
+            "amenity": "dentist",
+            "name": "Monsei Dentistry"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9418724,
+            47.9184573
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5531113041",
+        "properties": {
+          "type": "node",
+          "id": 5531113041,
+          "tags": {
+            "addr:city": "Ulan Bator",
+            "addr:country": "MN",
+            "addr:street": "Эх нялхасын гудамж",
+            "amenity": "dentist",
+            "facebook": "https://www.facebook.com/IntelligenceDentDentalClinic/",
+            "name": "IDent Dental Clinic"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8882038,
+            47.9245656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5798980153",
+        "properties": {
+          "type": "node",
+          "id": 5798980153,
+          "tags": {
+            "addr:street": "Энх тайваны өргөн чөлөө",
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "internet_access": "wlan",
+            "name": "\"Familydent\" dental clinic",
+            "name:en": "\"Фэмилидэнт\" шүдний эмнэлэг",
+            "phone": "11-317210"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9086545,
+            47.9172843
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6237727889",
+        "properties": {
+          "type": "node",
+          "id": 6237727889,
+          "tags": {
+            "addr:housenumber": "11а",
+            "addr:street": "Их тойрог",
+            "amenity": "dentist",
+            "name": "Дентамид шүдний эмнэлэг",
+            "name:en": "Dentamed shudnii emneleg",
+            "opening_hours": "Mo-Su 09:00-20:00",
+            "phone": "70160202"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9417328,
+            47.9216693
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6237764186",
+        "properties": {
+          "type": "node",
+          "id": 6237764186,
+          "tags": {
+            "addr:housenumber": "Seoul plaza 360",
+            "addr:street": "Сөүлийн гудамж",
+            "amenity": "dentist",
+            "internet_access": "wlan",
+            "name": "Дентамид2 шүдний эмнэлэг",
+            "name:en": "Le Beautique Dental shudnii emneleg",
+            "name:mn": "Le Beautique Dental шүдний эмнэлэг",
+            "phone": "77400808"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9031241,
+            47.9130443
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6249099885",
+        "properties": {
+          "type": "node",
+          "id": 6249099885,
+          "tags": {
+            "addr:housenumber": "102",
+            "addr:postcode": "11000",
+            "addr:street": "Толгойтын гудамж",
+            "amenity": "dentist",
+            "email": "ariukaaku0811@gmail.com",
+            "internet_access": "wlan",
+            "name": "АриуХанГал шүдний эмнэлэг",
+            "name:en": "AriuKhanGal dent",
+            "opening_hours": "Mo-Su 09:00-19:30",
+            "phone": "89936770"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.7806513,
+            47.9156218
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6645437886",
+        "properties": {
+          "type": "node",
+          "id": 6645437886,
+          "tags": {
+            "amenity": "dentist",
+            "name": "Индранил шүдний эмнэлэг",
+            "name:en": "Indranil Dental Clinic"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9420247,
+            47.9220115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7762996886",
+        "properties": {
+          "type": "node",
+          "id": 7762996886,
+          "tags": {
+            "amenity": "dentist",
+            "name": "Сайхан Шүдний эмнэлэг",
+            "name:en": "Saikhan shudnii emneleg"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8965022,
+            47.8972922
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/8247955719",
+        "properties": {
+          "type": "node",
+          "id": 8247955719,
+          "tags": {
+            "addr:city": "Ulaanbaatar",
+            "addr:district": "Khan-Uul",
+            "addr:state": "Mongolia",
+            "addr:street": "Дунд голын Гудамж",
+            "addr:subdistrict": "khoroo-2",
+            "amenity": "dentist",
+            "health_facility:type": "clinic",
+            "healthcare": "dentist",
+            "healthcare:speciality": "dentist",
+            "insurance:health": "no",
+            "name:mn": "Шүдний эмнэлэг",
+            "opening_hours": "Mo-Sa 09:00-18:00",
+            "operator:type": "private",
+            "wheelchair": "no"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9058902,
+            47.9027716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2321906459",
+        "properties": {
+          "type": "node",
+          "id": 2321906459,
+          "tags": {
+            "addr:city": "Улаанбаатар",
+            "amenity": "clinic",
+            "name": "Orbita нүдний эмнэлэг",
+            "wheelchair": "limited"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.902101,
+            47.9134492
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2321992113",
+        "properties": {
+          "type": "node",
+          "id": 2321992113,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Family hospital /эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8656176,
+            47.9244306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2322020795",
+        "properties": {
+          "type": "node",
+          "id": 2322020795,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Med-Analytic Medical Laboratory"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8603108,
+            47.915109
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2520530969",
+        "properties": {
+          "type": "node",
+          "id": 2520530969,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Helios Kliniken"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9218586,
+            47.927699
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2522840099",
+        "properties": {
+          "type": "node",
+          "id": 2522840099,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Эмэгтэйчүүдийн Эмнэлэг",
+            "name:en": "Gynaecology"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9072172,
+            47.9231708
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3887644506",
+        "properties": {
+          "type": "node",
+          "id": 3887644506,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Өрхийн Эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8690316,
+            47.920855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3891964083",
+        "properties": {
+          "type": "node",
+          "id": 3891964083,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Цахиур Төмөр"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8674308,
+            47.9143315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3896990650",
+        "properties": {
+          "type": "node",
+          "id": 3896990650,
+          "tags": {
+            "amenity": "clinic",
+            "name": "баянгол дүүргийн 7р хорооны өрхийн эмнэлэг",
+            "operator": "цагдагийн хэлтэс"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8653511,
+            47.9208803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3899326309",
+        "properties": {
+          "type": "node",
+          "id": 3899326309,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Амин-Эрдэнэ Эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8592448,
+            47.9148046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3900964272",
+        "properties": {
+          "type": "node",
+          "id": 3900964272,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Derma Esthetic beauty clinic",
+            "toilets:wheelchair": "no",
+            "wheelchair": "no"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9071523,
+            47.9152467
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3901091254",
+        "properties": {
+          "type": "node",
+          "id": 3901091254,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Гялс төв"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8879008,
+            47.9126769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3912772076",
+        "properties": {
+          "type": "node",
+          "id": 3912772076,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Etemo clinic"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9428674,
+            47.9130105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3918582024",
+        "properties": {
+          "type": "node",
+          "id": 3918582024,
+          "tags": {
+            "amenity": "clinic",
+            "healthcare": "clinic",
+            "name": "Эмэгтэйчүүдийн эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9105561,
+            47.9244724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3918614957",
+        "properties": {
+          "type": "node",
+          "id": 3918614957,
+          "tags": {
+            "amenity": "clinic",
+            "healthcare": "clinic",
+            "name": "Эрин эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9349706,
+            47.9173568
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4029445793",
+        "properties": {
+          "type": "node",
+          "id": 4029445793,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Хатан ижий эмнэлэг",
+            "toilets:wheelchair": "no",
+            "wheelchair": "limited"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8998614,
+            47.9149147
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4423063793",
+        "properties": {
+          "type": "node",
+          "id": 4423063793,
+          "tags": {
+            "amenity": "clinic",
+            "name": "2-р хорооны өрхийн эмнэлэг",
+            "name:mn": "2-р хорооны өрхийн эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.903202,
+            47.9009898
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4458183092",
+        "properties": {
+          "type": "node",
+          "id": 4458183092,
+          "tags": {
+            "addr:street": "Нам Ян Жү-гийн гудамж",
+            "amenity": "clinic"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9436527,
+            47.9128001
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4506129293",
+        "properties": {
+          "type": "node",
+          "id": 4506129293,
+          "tags": {
+            "amenity": "clinic",
+            "name": "СХД 15-р хороо Өрхийн эмнэлэг",
+            "name:mn": "СХД 15-р хороо Өрхийн эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8397637,
+            47.9134872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5119220577",
+        "properties": {
+          "type": "node",
+          "id": 5119220577,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Bichil Manal",
+            "name:mn": "Бичил манал"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8800088,
+            47.9264259
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5222542821",
+        "properties": {
+          "type": "node",
+          "id": 5222542821,
+          "tags": {
+            "addr:housenumber": "27",
+            "addr:street": "Махатма Гандигийн Гудамж",
+            "amenity": "clinic",
+            "email": "navchaatovuu@yahoo.com",
+            "name": "Цинк клиник",
+            "name:en": "Zink clinic",
+            "opening_hours": "Mo-Sa 09:00-18:00",
+            "operator": "Doc. Tumennasan. M PhD",
+            "phone": "99050949"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.925124,
+            47.9053836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5382848325",
+        "properties": {
+          "type": "node",
+          "id": 5382848325,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Тэргүүн дэнт шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8794815,
+            47.9246138
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5425880721",
+        "properties": {
+          "type": "node",
+          "id": 5425880721,
+          "tags": {
+            "amenity": "clinic",
+            "name": "нийгмийн эрүүл мэндийн төв",
+            "name:en": "niigmiin eruul mendiin tuv"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            108.3714989,
+            47.7846054
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5439823034",
+        "properties": {
+          "type": "node",
+          "id": 5439823034,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Эрхэс сувилал",
+            "name:en": "Erkhes suvilal"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9657976,
+            48.0421953
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5509850421",
+        "properties": {
+          "type": "node",
+          "id": 5509850421,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Baby care"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.6796911,
+            47.8523565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6010197186",
+        "properties": {
+          "type": "node",
+          "id": 6010197186,
+          "tags": {
+            "amenity": "clinic",
+            "name": "\"АСЭ\" эмэгтэйчүүдийн эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8769149,
+            47.9262165
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6371775385",
+        "properties": {
+          "type": "node",
+          "id": 6371775385,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Багануур сувилал",
+            "name:en": "Baganuur suvilal",
+            "opening_hours": "Mo-Fr 08:00-17:00",
+            "phone": "99284045"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            108.3688393,
+            47.7797921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6376322783",
+        "properties": {
+          "type": "node",
+          "id": 6376322783,
+          "tags": {
+            "amenity": "clinic",
+            "contact:email": "info@dermatologycenter.gov.mn",
+            "contact:facebook": "https://m.facebook.com/profile.php?id\u003d575048422589030\u0026__tn__\u003dC-R",
+            "contact:phone": "+976 7013 5035",
+            "name": "Арьсны өвчих судлалын үндэсний төв",
+            "website": "https://dermatologycenter.gov.mn/"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9149542,
+            47.9274414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6435720088",
+        "properties": {
+          "type": "node",
+          "id": 6435720088,
+          "tags": {
+            "addr:street": "Энх тайвны өргөн чөлөө",
+            "amenity": "clinic",
+            "name": "Их зайсан шүдний эмнэлэг",
+            "name:en": "Ikh zaisan dental clinic"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9649132,
+            47.9172236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6435720289",
+        "properties": {
+          "type": "node",
+          "id": 6435720289,
+          "tags": {
+            "addr:street": "Энх тайвны өргөн чөлөө",
+            "amenity": "clinic",
+            "name": "Энэрэл эмнэлэг",
+            "name:en": "Charity hospital"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9647393,
+            47.9175796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6584307385",
+        "properties": {
+          "type": "node",
+          "id": 6584307385,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Налайх ЭМН"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            107.2457894,
+            47.770136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6884169992",
+        "properties": {
+          "type": "node",
+          "id": 6884169992,
+          "tags": {
+            "addr:street": "Д. Сүхбаатарын гудамж",
+            "amenity": "clinic",
+            "name": "Соёрхол Мед эмнэлэг",
+            "name:en": "Soyorkhol Med Hospital"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9150737,
+            47.9236783
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7955026885",
+        "properties": {
+          "type": "node",
+          "id": 7955026885,
+          "tags": {
+            "amenity": "clinic",
+            "name": "Хүүхдийн эмнэлэг",
+            "name:en": "Children’s Clinic",
+            "name:mn": "Хувь Эрдэнэ Мед"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8861777,
+            47.9027649
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2293179510",
+        "properties": {
+          "type": "node",
+          "id": 2293179510,
+          "tags": {
+            "amenity": "doctors",
+            "name": "Гялс төв 2",
+            "name:en": "Gyals tuv",
+            "opening_hours": "Шинжилгээ өгөх Даваа – Баасан 08:00 – 16:00 Бямба 09:00 – 13:00 Ням Амарна",
+            "opening_hours:covid19": "БЗД, 16-р хороо, Дандарбаатарын гудамж 32 (Офицеруудын ордноос цайз зах явах зам дагуу) Утас: 7575-4411"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9743191,
+            47.9199302
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2513589719",
+        "properties": {
+          "type": "node",
+          "id": 2513589719,
+          "tags": {
+            "amenity": "doctors",
+            "healthcare": "doctor",
+            "name": "Энэрэнгүй үйлс"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9096882,
+            47.9247272
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2520530987",
+        "properties": {
+          "type": "node",
+          "id": 2520530987,
+          "tags": {
+            "amenity": "doctors",
+            "name": "Хатагтай эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9218696,
+            47.9275934
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2520683344",
+        "properties": {
+          "type": "node",
+          "id": 2520683344,
+          "tags": {
+            "amenity": "doctors",
+            "healthcare": "doctor",
+            "name": "Аарцаг нурууны бариа заслын төв",
+            "name:en": "Pelvis \u0026 Back Bone Setting Center"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9097412,
+            47.9253294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3895227158",
+        "properties": {
+          "type": "node",
+          "id": 3895227158,
+          "tags": {
+            "amenity": "doctors",
+            "healthcare": "doctor",
+            "name": "Оюутны эрүүл мэндийн төв"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.930723,
+            47.9175865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3896629173",
+        "properties": {
+          "type": "node",
+          "id": 3896629173,
+          "tags": {
+            "amenity": "doctors",
+            "name": "Энхжил эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9506009,
+            47.9172289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3910440582",
+        "properties": {
+          "type": "node",
+          "id": 3910440582,
+          "tags": {
+            "amenity": "doctors",
+            "name": "Дүүргийн эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9019289,
+            47.9460483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3931661957",
+        "properties": {
+          "type": "node",
+          "id": 3931661957,
+          "tags": {
+            "amenity": "doctors",
+            "healthcare": "doctor",
+            "name": "Цус цуглуулах төв",
+            "toilets:wheelchair": "no",
+            "wheelchair": "limited"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9234729,
+            47.9167807
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4316565189",
+        "properties": {
+          "type": "node",
+          "id": 4316565189,
+          "tags": {
+            "amenity": "doctors",
+            "name": "Amgalan-Urkh UREMT",
+            "name:en": "Amgalan urkh"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9041551,
+            47.8875464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4576301293",
+        "properties": {
+          "type": "node",
+          "id": 4576301293,
+          "tags": {
+            "amenity": "doctors",
+            "name": "Долоон одой хүүхэдийн эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8695034,
+            47.9180911
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4929949421",
+        "properties": {
+          "type": "node",
+          "id": 4929949421,
+          "tags": {
+            "amenity": "doctors",
+            "healthcare": "doctor",
+            "name": "Сонгодо эмнэлэг",
+            "name:en": "Songdo hospital",
+            "name:mn": "Сонгодо эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9224943,
+            47.9162835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5353912421",
+        "properties": {
+          "type": "node",
+          "id": 5353912421,
+          "tags": {
+            "amenity": "doctors",
+            "name": "Энхчулуун",
+            "name:en": "Enkhchuluun"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9243314,
+            47.9394057
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/8046764689",
+        "properties": {
+          "type": "node",
+          "id": 8046764689,
+          "tags": {
+            "amenity": "doctors",
+            "healthcare": "doctors",
+            "name": "4-р хорооны өрхийн эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9492472,
+            47.9186075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/1882567313",
+        "properties": {
+          "type": "node",
+          "id": 1882567313,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Бүсгүйчүүд эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9098269,
+            47.926508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2292497353",
+        "properties": {
+          "type": "node",
+          "id": 2292497353,
+          "tags": {
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Цэргийн Төв Эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.966412,
+            47.9172482
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2292524466",
+        "properties": {
+          "type": "node",
+          "id": 2292524466,
+          "tags": {
+            "amenity": "hospital",
+            "name": "3-р төрөх"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.964749,
+            47.9176293
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2292524467",
+        "properties": {
+          "type": "node",
+          "id": 2292524467,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Баянзүрх дүүргийн нэгдсэн эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9639387,
+            47.9185247
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2299563428",
+        "properties": {
+          "type": "node",
+          "id": 2299563428,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Гэмтэл Согог Судлалын Үндэсний Төв"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8570779,
+            47.9196687
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2306252780",
+        "properties": {
+          "type": "node",
+          "id": 2306252780,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Чимэг Оюу эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8959274,
+            47.8966686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2306252781",
+        "properties": {
+          "type": "node",
+          "id": 2306252781,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Чимэг Оюу эмэгтэйчүүдийн эмнэлэг",
+            "name:en": "Chimeg Oyu women’s hospital"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8959247,
+            47.8967603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2306252782",
+        "properties": {
+          "type": "node",
+          "id": 2306252782,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8965121,
+            47.8982115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2306263971",
+        "properties": {
+          "type": "node",
+          "id": 2306263971,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Хан-Уул Эрүүл Мэндийн төв"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8929903,
+            47.8982583
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2306263988",
+        "properties": {
+          "type": "node",
+          "id": 2306263988,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Khan uul duurgiin Emneleg",
+            "name:en": "Khan uul district hospital"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8928432,
+            47.8980374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2317165239",
+        "properties": {
+          "type": "node",
+          "id": 2317165239,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Налайх дүүргийн нэгдсэн эмнэлг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            107.2531695,
+            47.7693182
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2317165266",
+        "properties": {
+          "type": "node",
+          "id": 2317165266,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Сүрьеэгийн тасаг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            107.253148,
+            47.7700537
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2317165299",
+        "properties": {
+          "type": "node",
+          "id": 2317165299,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Хорооны эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            107.2528342,
+            47.7717807
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2319085008",
+        "properties": {
+          "type": "node",
+          "id": 2319085008,
+          "tags": {
+            "addr:street": "Улаанбаатар - Багануур",
+            "amenity": "hospital",
+            "emergency": "no",
+            "healthcare": "hospital",
+            "name": "Дүүргийн эрүүл мэндийн төв",
+            "name:mn": "Багануур дүүргийн эрүүл мэндийн төв"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            108.3723887,
+            47.7848747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2321489230",
+        "properties": {
+          "type": "node",
+          "id": 2321489230,
+          "tags": {
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name:en": "Chingeltei District Health Centre"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9140142,
+            47.9256025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2321695720",
+        "properties": {
+          "type": "node",
+          "id": 2321695720,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Хүүхдийн сувилал"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8945018,
+            47.8992644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2321906464",
+        "properties": {
+          "type": "node",
+          "id": 2321906464,
+          "tags": {
+            "addr:city": "Ulaanbaatar",
+            "amenity": "hospital",
+            "name": "2-р төрөх эмнэлэг",
+            "wheelchair": "yes"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9016182,
+            47.9135966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2321950629",
+        "properties": {
+          "type": "node",
+          "id": 2321950629,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Зуун Наст Эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8961411,
+            47.9109862
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2325790269",
+        "properties": {
+          "type": "node",
+          "id": 2325790269,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Уясах Эмнэлэг",
+            "name:mn": "ХУД 8-р хороо"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8026332,
+            47.8662852
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2330581840",
+        "properties": {
+          "type": "node",
+          "id": 2330581840,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Сэтгэцийн Эрүүл Мэндийн Үндэсний Төв"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            107.009914,
+            47.9331249
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/2624477815",
+        "properties": {
+          "type": "node",
+          "id": 2624477815,
+          "tags": {
+            "addr:city": "Улаанбаатар",
+            "amenity": "hospital",
+            "name": "Сүхбаатар дүүргийн нэгдсэн эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9292736,
+            47.9303839
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3083922911",
+        "properties": {
+          "type": "node",
+          "id": 3083922911,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Сэргээн засах клиник эмнэлэг",
+            "name:en": "Rehabilitation Hospital"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9139983,
+            47.8938615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3152576915",
+        "properties": {
+          "type": "node",
+          "id": 3152576915,
+          "tags": {
+            "amenity": "hospital",
+            "name": "\"Тэгш саруул\" өрхийн эмнэлэг",
+            "toilets:wheelchair": "yes",
+            "wheelchair": "no"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.912698,
+            47.9135033
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3193766946",
+        "properties": {
+          "type": "node",
+          "id": 3193766946,
+          "tags": {
+            "amenity": "hospital",
+            "emergency": "шүдний эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8956404,
+            47.8981312
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3193774691",
+        "properties": {
+          "type": "node",
+          "id": 3193774691,
+          "tags": {
+            "amenity": "hospital",
+            "email": "monkhorenkhbold@yahoo.com",
+            "internet_access": "wlan",
+            "name": "шүдний эмнэлэг",
+            "name:mn": "Гэгээн Ар Үр эмнэлэг",
+            "phone": "99168777"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8956553,
+            47.8982101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3886060463",
+        "properties": {
+          "type": "node",
+          "id": 3886060463,
+          "tags": {
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Police",
+            "name:en": "Цагдаагийн хэсэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9127906,
+            47.9134344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3887084830",
+        "properties": {
+          "type": "node",
+          "id": 3887084830,
+          "tags": {
+            "amenity": "hospital",
+            "name": "ХӨСҮТ",
+            "opening_hours": "24/7",
+            "phone": "11453994",
+            "website": "http://www.nccd.gov.mn"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.947421,
+            47.9136116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3887647856",
+        "properties": {
+          "type": "node",
+          "id": 3887647856,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Манал-Оточ Компьютер томографи"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8555304,
+            47.9183508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3891910480",
+        "properties": {
+          "type": "node",
+          "id": 3891910480,
+          "tags": {
+            "amenity": "hospital",
+            "name": "мөнгөн гүүр эмнэлэг",
+            "phone": "77060303"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8537518,
+            47.9158511
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3893460702",
+        "properties": {
+          "type": "node",
+          "id": 3893460702,
+          "tags": {
+            "amenity": "hospital",
+            "name": "\"Амин тус\" өрхийн эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.7268782,
+            47.8457081
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3894679296",
+        "properties": {
+          "type": "node",
+          "id": 3894679296,
+          "tags": {
+            "amenity": "hospital",
+            "name": "АНЭмнэлэгийн Амбулаторийн тасаг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9517665,
+            47.7033905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3894719647",
+        "properties": {
+          "type": "node",
+          "id": 3894719647,
+          "tags": {
+            "amenity": "hospital"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9183287,
+            47.9007014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3898583707",
+        "properties": {
+          "type": "node",
+          "id": 3898583707,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Энэрэл Мамоц Эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8383017,
+            47.9146731
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3898583708",
+        "properties": {
+          "type": "node",
+          "id": 3898583708,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Апи Мон Эмэнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8382976,
+            47.9147262
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3898585688",
+        "properties": {
+          "type": "node",
+          "id": 3898585688,
+          "tags": {
+            "amenity": "hospital",
+            "name": "ЦНС эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8383281,
+            47.9146404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3900123333",
+        "properties": {
+          "type": "node",
+          "id": 3900123333,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Цэ-Пү эрэгтэйчүүдийн эмнэлэг",
+            "wheelchair:description": "барилгын гол орцын хаалганы өргөн 85см (1 хавтастай), гадна шатны өндөр 1ш 13см жорлонгийн гадна хаалганы өргөн 70 см дотор тал нь 70 см"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9086893,
+            47.9122032
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3900816749",
+        "properties": {
+          "type": "node",
+          "id": 3900816749,
+          "tags": {
+            "addr:street": "Чингисийн өргөн чөлөө",
+            "amenity": "hospital",
+            "emergency": "no",
+            "level": "8",
+            "name": "Интермед Эмнэлэг",
+            "name:en": "intermed hospital",
+            "phone": "+97677011111"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9054212,
+            47.8986426
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3900863531",
+        "properties": {
+          "type": "node",
+          "id": 3900863531,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Учрахуй өрхийн эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8877504,
+            47.9115556
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3900947919",
+        "properties": {
+          "type": "node",
+          "id": 3900947919,
+          "tags": {
+            "amenity": "hospital",
+            "name": "эмийн сан"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8275555,
+            47.9839281
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3901494379",
+        "properties": {
+          "type": "node",
+          "id": 3901494379,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Эмэгтэйчүүдийн эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9441032,
+            47.9124257
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3902603666",
+        "properties": {
+          "type": "node",
+          "id": 3902603666,
+          "tags": {
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Нефертити лазер эмчилгээ"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9190542,
+            47.9261282
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3904788798",
+        "properties": {
+          "type": "node",
+          "id": 3904788798,
+          "tags": {
+            "addr:city": "Улаанбаатар (Ulaanbaatar)",
+            "amenity": "hospital",
+            "name": "Сориг Интеграц Эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8602998,
+            47.9141078
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3906219396",
+        "properties": {
+          "type": "node",
+          "id": 3906219396,
+          "tags": {
+            "addr:street": "Dilav\u0027 Khutagt Jamsranjav\u0027s street",
+            "amenity": "hospital",
+            "name": "Сэтгэшгүй эмнэлэг",
+            "wheelchair": "no"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.889733,
+            47.9186798
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3908052847",
+        "properties": {
+          "type": "node",
+          "id": 3908052847,
+          "tags": {
+            "addr:street": "Амарсанаагийн гудамж",
+            "amenity": "hospital",
+            "name": "Мөнх Тэнгэр \\Эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.891278,
+            47.918189
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3910396205",
+        "properties": {
+          "type": "node",
+          "id": 3910396205,
+          "tags": {
+            "addr:street": "ЭБО зам",
+            "amenity": "hospital",
+            "name": "тод дэлгэц эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8889389,
+            47.9174174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3912506549",
+        "properties": {
+          "type": "node",
+          "id": 3912506549,
+          "tags": {
+            "addr:city": "Улаанбаатар (Ulaanbaatar)",
+            "addr:housenumber": "2 давхарт",
+            "addr:street": "Ард аюушийн өргөн чөлөө",
+            "amenity": "hospital",
+            "name": "Шүдний Эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8733937,
+            47.9230358
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3912836458",
+        "properties": {
+          "type": "node",
+          "id": 3912836458,
+          "tags": {
+            "amenity": "hospital",
+            "name": "ЧД 15-р хороо ӨЭМТ"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8978136,
+            47.9616612
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3914863430",
+        "properties": {
+          "type": "node",
+          "id": 3914863430,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Нийгмийн эрүүл мэндийн хүрээлэн"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9413553,
+            47.9194227
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3918667223",
+        "properties": {
+          "type": "node",
+          "id": 3918667223,
+          "tags": {
+            "amenity": "hospital"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8421372,
+            47.9553547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4029438993",
+        "properties": {
+          "type": "node",
+          "id": 4029438993,
+          "tags": {
+            "addr:street": "Сөүлийн гудамж",
+            "amenity": "hospital",
+            "name": "Урангоо эмнэлэг",
+            "toilets:wheelchair": "no",
+            "wheelchair": "limited"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8957496,
+            47.9150441
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4029457339",
+        "properties": {
+          "type": "node",
+          "id": 4029457339,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Эндо уламжлалт эмнэлэг",
+            "toilets:wheelchair": "no",
+            "wheelchair": "no"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8916231,
+            47.9190349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4029461896",
+        "properties": {
+          "type": "node",
+          "id": 4029461896,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Аминаа",
+            "toilets:wheelchair": "no",
+            "wheelchair": "no"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8897361,
+            47.9196856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4029463789",
+        "properties": {
+          "type": "node",
+          "id": 4029463789,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Гарьд магнай эмнэлэг",
+            "name:en": "Garid magnai hospital",
+            "toilets:wheelchair": "no",
+            "wheelchair": "limited"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8989977,
+            47.9150909
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4058469609",
+        "properties": {
+          "type": "node",
+          "id": 4058469609,
+          "tags": {
+            "addr:city": "Ulaanbaatar",
+            "addr:housenumber": "GH",
+            "addr:street": "Чингисийн өргөн чөлөө",
+            "amenity": "hospital",
+            "emergency": "no",
+            "name": "Naradent Family Dental Clinic"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9129282,
+            47.9048799
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4225565161",
+        "properties": {
+          "type": "node",
+          "id": 4225565161,
+          "tags": {
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "UB эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9238927,
+            47.9175014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4414718302",
+        "properties": {
+          "type": "node",
+          "id": 4414718302,
+          "tags": {
+            "amenity": "hospital",
+            "name": "2-р Хороо өрхийн эмнэлэг",
+            "name:en": "Тэрмэстий өрхийн эмнэлэг",
+            "name:mn": "2-р Хороо өрхийн эмнэлэг",
+            "opening_hours": "Mo-Fr 09:00-17:00"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9032514,
+            47.9010362
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4484720691",
+        "properties": {
+          "type": "node",
+          "id": 4484720691,
+          "tags": {
+            "amenity": "hospital",
+            "name": "төгсун эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9743638,
+            47.9208223
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4506130191",
+        "properties": {
+          "type": "node",
+          "id": 4506130191,
+          "tags": {
+            "amenity": "hospital",
+            "email": "angirmaa_3@yahoo.com",
+            "healthcare": "hospital",
+            "name": "БГД 3-р хороо Ангирмаа ӨЭМТ",
+            "name:mn": "БГД 3-р хороо Ангирмаа ӨЭМТ",
+            "phone": "252694"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8878906,
+            47.9133954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4533102076",
+        "properties": {
+          "type": "node",
+          "id": 4533102076,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Тавин ус ЭХНБ",
+            "name:en": "fifty water physical"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9014413,
+            47.9193953
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4554907993",
+        "properties": {
+          "type": "node",
+          "id": 4554907993,
+          "tags": {
+            "amenity": "hospital",
+            "name": "ХУД 6-р хороо",
+            "name:en": "Чанд авиа",
+            "name:mn": "ХУД 6-р хороо"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8098102,
+            47.8671608
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4554929589",
+        "properties": {
+          "type": "node",
+          "id": 4554929589,
+          "tags": {
+            "amenity": "hospital",
+            "name": "ХУД 5-р хороо"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8240142,
+            47.8698996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4556370095",
+        "properties": {
+          "type": "node",
+          "id": 4556370095,
+          "tags": {
+            "amenity": "hospital",
+            "name": "ХУД 7-р хороо",
+            "name:mn": "ХУД 7-р хороо"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8031087,
+            47.8662731
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4556370096",
+        "properties": {
+          "type": "node",
+          "id": 4556370096,
+          "tags": {
+            "amenity": "hospital",
+            "name": "ХУД 4-р хороо",
+            "name:en": "Цэц до",
+            "name:mn": "ХУД 4-р хороо"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8333392,
+            47.8735324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4563394293",
+        "properties": {
+          "type": "node",
+          "id": 4563394293,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Энхтитэм",
+            "name:mn": "Энхтитэм"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8965924,
+            47.8996265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5030790921",
+        "properties": {
+          "type": "node",
+          "id": 5030790921,
+          "tags": {
+            "addr:street": "Өндөр гэгээн Занабазарын гудамж",
+            "amenity": "hospital",
+            "name": "Гарьдманлай",
+            "name:en": "Gardmanlai"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8957372,
+            47.9197068
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5116465339",
+        "properties": {
+          "type": "node",
+          "id": 5116465339,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Хонгороо эмийн сан"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8531411,
+            47.8795328
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5119776821",
+        "properties": {
+          "type": "node",
+          "id": 5119776821,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Амгалан амаржих газар",
+            "name:mn": "Амгалан амаржих газар"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9679503,
+            47.9149043
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5192268121",
+        "properties": {
+          "type": "node",
+          "id": 5192268121,
+          "tags": {
+            "amenity": "hospital",
+            "name": "ЧД 2-р хороо ӨЭМТ"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8998743,
+            47.9171682
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5336242722",
+        "properties": {
+          "type": "node",
+          "id": 5336242722,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Астма",
+            "name:en": "Astma"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8780433,
+            47.9130328
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5363865815",
+        "properties": {
+          "type": "node",
+          "id": 5363865815,
+          "tags": {
+            "addr:city": "Ulan Bator",
+            "addr:country": "MN",
+            "amenity": "hospital",
+            "facebook": "https://www.facebook.com/Nogoolinofficial/",
+            "name": "Ногоолин эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8988045,
+            47.9124859
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5439822938",
+        "properties": {
+          "type": "node",
+          "id": 5439822938,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Хос шинэс сувилал",
+            "name:en": "Hos shines suvilal"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.969548,
+            48.041142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5498820223",
+        "properties": {
+          "type": "node",
+          "id": 5498820223,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Наркологийн Эмнэлэг",
+            "name:en": "Narcologiin emneleg"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.795006,
+            47.9076058
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5730346522",
+        "properties": {
+          "type": "node",
+          "id": 5730346522,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Шагшаа чих хамар хоолой эмнэлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9219477,
+            47.9275398
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5793785353",
+        "properties": {
+          "type": "node",
+          "id": 5793785353,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Амин заяа",
+            "name:en": "aminzaya"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8565486,
+            47.9168636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5798899250",
+        "properties": {
+          "type": "node",
+          "id": 5798899250,
+          "tags": {
+            "addr:city": "ulaanbaatar",
+            "addr:street": "Хилчин холбоочдын гудамж",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Одонт мандал"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.7388887,
+            47.9119524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5821805656",
+        "properties": {
+          "type": "node",
+          "id": 5821805656,
+          "tags": {
+            "amenity": "hospital",
+            "name": "ЧД 13-р хороо ӨЭМТ"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9129146,
+            47.9488313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5821814953",
+        "properties": {
+          "type": "node",
+          "id": 5821814953,
+          "tags": {
+            "amenity": "hospital",
+            "name": "18-р хороо ӨЭМТ"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9041498,
+            47.971633
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5821815055",
+        "properties": {
+          "type": "node",
+          "id": 5821815055,
+          "tags": {
+            "amenity": "hospital",
+            "name": "16-р хороо ӨЭМТ"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9146493,
+            47.9545467
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5821833553",
+        "properties": {
+          "type": "node",
+          "id": 5821833553,
+          "tags": {
+            "amenity": "hospital",
+            "name": "ЧД 12-р хороо ӨЭМТ"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8896825,
+            47.9526301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5919412886",
+        "properties": {
+          "type": "node",
+          "id": 5919412886,
+          "tags": {
+            "amenity": "hospital"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9762404,
+            47.9122699
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5968343185",
+        "properties": {
+          "type": "node",
+          "id": 5968343185,
+          "tags": {
+            "addr:housenumber": "38",
+            "addr:street": "Барилгачдын гудамж",
+            "amenity": "hospital",
+            "email": "info@junsthospital.com",
+            "internet_access": "wlan",
+            "name": "ЖИНСТ",
+            "name:en": "Jinst",
+            "opening_hours": "24/7",
+            "phone": "70182585",
+            "website": "http://www.jinsthospital.com"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8383824,
+            47.9146787
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6054062910",
+        "properties": {
+          "type": "node",
+          "id": 6054062910,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Натул Эмнэлэг",
+            "name:en": "Natul Hospital"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8182336,
+            47.9187192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6309657185",
+        "properties": {
+          "type": "node",
+          "id": 6309657185,
+          "tags": {
+            "addr:postcode": "16081",
+            "addr:street": "Энх тайваны өргөн чөлөө",
+            "amenity": "hospital",
+            "internet_access": "wlan",
+            "name": "ЭМ БИ ЖИ гэмтэл согогийн эмнэлэг",
+            "name:en": "MBG traumatological hospital",
+            "opening_hours": "24/7",
+            "phone": "75772828"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8625961,
+            47.9152634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6348081788",
+        "properties": {
+          "type": "node",
+          "id": 6348081788,
+          "tags": {
+            "addr:street": "Г.Чагдаржавын гудамж",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "ICU Ulaanbator Hospital"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9274247,
+            47.9160571
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6559558585",
+        "properties": {
+          "type": "node",
+          "id": 6559558585,
+          "tags": {
+            "amenity": "hospital",
+            "name": "BOLORMARGAD",
+            "name:mn": "БОЛОРМАРГАД"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8858301,
+            47.912882
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6559558586",
+        "properties": {
+          "type": "node",
+          "id": 6559558586,
+          "tags": {
+            "amenity": "hospital",
+            "name": "БОЛОРМАРГАД",
+            "name:en": "BOLORMARGAD"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.885827,
+            47.9127667
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6584382786",
+        "properties": {
+          "type": "node",
+          "id": 6584382786,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Бум энэрэл",
+            "name:en": "Bum enerel"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9458635,
+            47.920619
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6584382789",
+        "properties": {
+          "type": "node",
+          "id": 6584382789,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Цэнд манал",
+            "name:en": "Tsend manal"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9423672,
+            47.9093783
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6724667785",
+        "properties": {
+          "type": "node",
+          "id": 6724667785,
+          "tags": {
+            "addr:housenumber": "114",
+            "addr:postcode": "14200",
+            "addr:street": "Энх тайваны өргөн чөлөө",
+            "amenity": "hospital",
+            "email": "garvaa.sugar@gmail.com",
+            "internet_access": "wlan",
+            "name": "Супернова бүтэн биеийн оношилгооны төв",
+            "name:en": "Supernova full body diagnizing center",
+            "opening_hours": "Mo-Fr 08:20-17:30; Sa 09:00-14:00",
+            "phone": "90900880",
+            "website": "http://supernova.mn"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8578952,
+            47.9136649
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6771075085",
+        "properties": {
+          "type": "node",
+          "id": 6771075085,
+          "tags": {
+            "addr:street": "Ард Аюушийн өргөн чөлөө",
+            "amenity": "hospital",
+            "name": "Med Trauma hospital",
+            "phone": "77110351"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8555894,
+            47.9201259
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7156388185",
+        "properties": {
+          "type": "node",
+          "id": 7156388185,
+          "tags": {
+            "addr:street": "Ботаникийн цэцэрлэг",
+            "amenity": "hospital",
+            "internet_access": "wlan",
+            "name": "Монгол-Япон Сургалтын Эмнэлэг",
+            "name:en": "Mongolia-Japan Teaching Hospital"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9970594,
+            47.9112026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7294925328",
+        "properties": {
+          "type": "node",
+          "id": 7294925328,
+          "tags": {
+            "addr:city": "Улаанбаатар (Ulaanbaatar)",
+            "addr:postcode": "16050",
+            "addr:street": "Энх тайваны өргөн чөлөө",
+            "amenity": "hospital",
+            "description": "Beauty service, Beauty Treatment, Plastic Surgery, Clinic\nat 14th floor",
+            "email": "veneravipclinic@gmail.com",
+            "healthcare": "hospital",
+            "healthcare:speciality": "surgery;dermatology;neurology;clinic;plastic_surgery",
+            "internet_access": "wlan",
+            "internet_access:ssid": "Venera V.I.P Clinic",
+            "name": "Venera V.I.P Clinic",
+            "opening_hours": "24/7",
+            "operator": "Neon Gyalbaa Co., LTD",
+            "operator:type": "private",
+            "phone": "+976 70115090",
+            "start_date": "2020-02-02",
+            "wheelchair": "yes"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.894208,
+            47.9147755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7294925329",
+        "properties": {
+          "type": "node",
+          "id": 7294925329,
+          "tags": {
+            "addr:city": "Улаанбаатар (Ulaanbaatar)",
+            "addr:postcode": "16052",
+            "addr:street": "Энх тайваны өргөн чөлөө",
+            "amenity": "hospital",
+            "description": "Aesthetic, medical beauty, professional beauty, medical, laser therapy, daycare service, filler, botox, immune infusion, PDO, tattoo, Ulthera, Ozone, Plastic surgery",
+            "emergency": "yes",
+            "healthcare": "hospital",
+            "healthcare:speciality": "dermatology;plastic_surgery;clinic",
+            "internet_access": "yes",
+            "name": "Гоо Хатан Медикал",
+            "operator": "Neon Gyalbaa Co., LTD",
+            "operator:type": "private",
+            "phone": "+976 70117150",
+            "start_date": "2009-2-10"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8782132,
+            47.9141625
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7318755785",
+        "properties": {
+          "type": "node",
+          "id": 7318755785,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Үндэсний оношилгоо эмчилгээний төв",
+            "name:en": "National Diagnostic and Treatment Center"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9378213,
+            47.9204844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7802412786",
+        "properties": {
+          "type": "node",
+          "id": 7802412786,
+          "tags": {
+            "amenity": "hospital"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8790542,
+            47.8974181
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7877274085",
+        "properties": {
+          "type": "node",
+          "id": 7877274085,
+          "tags": {
+            "amenity": "hospital",
+            "name": "Эрүүл мэндиын газар",
+            "name:en": "Eruul mendiin gazar"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9545002,
+            47.7057194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7936140103",
+        "properties": {
+          "type": "node",
+          "id": 7936140103,
+          "tags": {
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "БХЯ-ны харьяа Цоглог цэцэрлэг"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9717704,
+            47.9166305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7939368570",
+        "properties": {
+          "type": "node",
+          "id": 7939368570,
+          "tags": {
+            "addr:city": "Ulaanbaatar",
+            "addr:postcode": "17020",
+            "addr:street": "Zaisan toiruu",
+            "amenity": "hospital",
+            "emergency": "yes",
+            "healthcare": "hospital",
+            "healthcare:speciality": "general;clinic;dermatology;orthopaedics;plastic_surgery;traditional_chinese_medicine;neurology;surgery;acupuncture",
+            "name": "Golden LUXOR Beauty Clinic",
+            "operator": "Plastic surgeon",
+            "operator:type": "public"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9116296,
+            47.8840873
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/4999671222",
+        "properties": {
+          "type": "node",
+          "id": 4999671222,
+          "tags": {
+            "addr:housenumber": "4-241a",
+            "addr:street": "Дамбадаржаагийн гудамж",
+            "amenity": "nursing_home"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9239219,
+            47.9800534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5212160924",
+        "properties": {
+          "type": "node",
+          "id": 5212160924,
+          "tags": {
+            "addr:housenumber": "104",
+            "amenity": "nursing_home",
+            "name:ru": "Энхжин"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9222556,
+            47.8804838
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5366975123",
+        "properties": {
+          "type": "node",
+          "id": 5366975123,
+          "tags": {
+            "amenity": "nursing_home",
+            "name": "Пүүжээ"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8158358,
+            47.9541939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/5762703654",
+        "properties": {
+          "type": "node",
+          "id": 5762703654,
+          "tags": {
+            "amenity": "nursing_home"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8953152,
+            47.9491423
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6272167285",
+        "properties": {
+          "type": "node",
+          "id": 6272167285,
+          "tags": {
+            "addr:housenumber": "55a",
+            "addr:street": "72-р хотхоны зам",
+            "amenity": "nursing_home",
+            "phone": "99212172"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.977904,
+            47.923206
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6718339585",
+        "properties": {
+          "type": "node",
+          "id": 6718339585,
+          "tags": {
+            "amenity": "nursing_home",
+            "name": "ger",
+            "name:en": "home"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.7741345,
+            48.0214784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6989534385",
+        "properties": {
+          "type": "node",
+          "id": 6989534385,
+          "tags": {
+            "amenity": "nursing_home"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8803283,
+            47.9112173
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/6992991393",
+        "properties": {
+          "type": "node",
+          "id": 6992991393,
+          "tags": {
+            "amenity": "nursing_home",
+            "name": "lll",
+            "name:en": "hh",
+            "phone": "95768222",
+            "website": "http://Huslen.com"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.7880932,
+            48.008813
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7038752394",
+        "properties": {
+          "type": "node",
+          "id": 7038752394,
+          "tags": {
+            "amenity": "nursing_home",
+            "email": "chinhvslen135@gmail.com",
+            "name": "Хүслэнгийх",
+            "opening_hours": "24/7",
+            "phone": "95768222",
+            "website": "http://Huslen.com"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.7883501,
+            48.0085356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7606377886",
+        "properties": {
+          "type": "node",
+          "id": 7606377886,
+          "tags": {
+            "amenity": "nursing_home"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9831467,
+            47.9322743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7765646085",
+        "properties": {
+          "type": "node",
+          "id": 7765646085,
+          "tags": {
+            "amenity": "nursing_home",
+            "name": "Ama\u0027s Summer house"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.7809874,
+            48.0107869
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/7810587886",
+        "properties": {
+          "type": "node",
+          "id": 7810587886,
+          "tags": {
+            "amenity": "nursing_home"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9833322,
+            47.9322925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3896377359",
+        "properties": {
+          "type": "node",
+          "id": 3896377359,
+          "tags": {
+            "amenity": "social_facility",
+            "name": "Apex цайны газар",
+            "social_facility": "food_bank"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8782993,
+            47.9221908
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3896720706",
+        "properties": {
+          "type": "node",
+          "id": 3896720706,
+          "tags": {
+            "amenity": "social_facility",
+            "name": "Ger",
+            "social_facility": "shelter",
+            "social_facility:for": "homeless"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.9731521,
+            47.9082402
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "node/3918667219",
+        "properties": {
+          "type": "node",
+          "id": 3918667219,
+          "tags": {
+            "amenity": "social_facility",
+            "social_facility": "group_home",
+            "social_facility:for": "senior",
+            "tower:type": "home"
+          },
+          "relations": [],
+          "meta": {}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8365852,
+            47.947912
+          ]
+        }
+      }
+    ]
+  }
+}

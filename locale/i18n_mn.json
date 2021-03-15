@@ -1,0 +1,13 @@
+{
+  "app_name": "монголын эрүүл мэндийн портал",
+  "search_page_title": "хайх",
+  "filter_page_title": "Шүүлтүүрүүд",
+  "filter_page_apply_title": "Шүүлтүүрийг ашиглах",
+  "filter_by_type_title": "Төрөл",
+  "filter_by_category_title": "Ангилалууд",
+  "filter_by_wheelchair_title": "Тэргэнцрийн тэргэнцэртэй нэвтрэх",
+  "filter_by_operating_hours_title": "Ажиллах цаг",
+  "filter_by_operated_by_title": "Ажилладаг",
+  "filter_by_boundary_title": "Байршлыг сонгоно уу",
+  "filter_page_reset_title": "Ажиллах цаг"
+}

@@ -1,0 +1,13 @@
+{
+  "app_name": "Mongolia Health Portal",
+  "search_page_title": "Search",
+  "filter_page_title": "Filters",
+  "filter_page_apply_title": "Apply filters",
+  "filter_by_type_title": "Type",
+  "filter_by_category_title": "Categories",
+  "filter_by_wheelchair_title": "Wheelchair Access",
+  "filter_by_operating_hours_title": "Operating Hours",
+  "filter_by_operated_by_title": "Operated By",
+  "filter_by_boundary_title": "Select Location",
+  "filter_page_reset_title": "Reset"
+}

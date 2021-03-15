@@ -1,0 +1,201 @@
+PODS:
+  - Firebase/CoreOnly (7.3.0):
+    - FirebaseCore (= 7.3.0)
+  - Firebase/DynamicLinks (7.3.0):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (~> 7.3.0)
+  - firebase_core (0.7.0):
+    - Firebase/CoreOnly (= 7.3.0)
+    - Flutter
+  - firebase_dynamic_links (0.7.0-1):
+    - Firebase/DynamicLinks (= 7.3.0)
+    - firebase_core
+    - Flutter
+  - FirebaseCore (7.3.0):
+    - FirebaseCoreDiagnostics (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+  - FirebaseCoreDiagnostics (7.5.0):
+    - GoogleDataTransport (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+    - nanopb (~> 2.30907.0)
+  - FirebaseDynamicLinks (7.3.1):
+    - FirebaseCore (~> 7.0)
+  - Flutter (1.0.0)
+  - flutter_compass (0.0.1):
+    - Flutter
+  - flutter_mapbox_navigation (0.0.17):
+    - Flutter
+    - MapboxNavigation (~> 0.40.0)
+  - flutter_secure_storage (3.3.1):
+    - Flutter
+  - flutter_webview_plugin (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GoogleDataTransport (8.2.0):
+    - nanopb (~> 2.30907.0)
+  - GoogleUtilities/Environment (7.2.0):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (7.2.0):
+    - GoogleUtilities/Environment
+  - location (0.0.1):
+    - Flutter
+  - Mapbox-iOS-SDK (5.9.0):
+    - MapboxMobileEvents (= 0.10.2)
+  - MapboxAccounts (2.2.0)
+  - MapboxCoreNavigation (0.40.0):
+    - MapboxAccounts (~> 2.2.0)
+    - MapboxDirections (~> 0.31.0)
+    - MapboxMobileEvents (~> 0.10.2)
+    - MapboxNavigationNative (~> 6.2.1)
+    - Turf (~> 0.3.0)
+  - MapboxDirections (0.31.1):
+    - Polyline (~> 4.2)
+    - Turf (~> 0.3.0)
+  - MapboxMobileEvents (0.10.2)
+  - MapboxNavigation (0.40.0):
+    - Mapbox-iOS-SDK (~> 5.6)
+    - MapboxCoreNavigation (= 0.40.0)
+    - MapboxMobileEvents (~> 0.10.2)
+    - MapboxSpeech (~> 0.3.0)
+    - Solar (~> 2.1)
+  - MapboxNavigationNative (6.2.1)
+  - MapboxSpeech (0.3.1)
+  - nanopb (2.30907.0):
+    - nanopb/decode (= 2.30907.0)
+    - nanopb/encode (= 2.30907.0)
+  - nanopb/decode (2.30907.0)
+  - nanopb/encode (2.30907.0)
+  - path_provider (0.0.1):
+    - Flutter
+  - Polyline (4.2.1)
+  - PromisesObjC (1.2.12)
+  - share (0.0.1):
+    - Flutter
+  - Solar (2.1.0)
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - Toast (4.0.0)
+  - Turf (0.3.0)
+  - url_launcher (0.0.1):
+    - Flutter
+  - user_location (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_dynamic_links (from `.symlinks/plugins/firebase_dynamic_links/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_compass (from `.symlinks/plugins/flutter_compass/ios`)
+  - flutter_mapbox_navigation (from `.symlinks/plugins/flutter_mapbox_navigation/ios`)
+  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
+  - flutter_webview_plugin (from `.symlinks/plugins/flutter_webview_plugin/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - location (from `.symlinks/plugins/location/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - share (from `.symlinks/plugins/share/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+  - user_location (from `.symlinks/plugins/user_location/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseDynamicLinks
+    - FMDB
+    - GoogleDataTransport
+    - GoogleUtilities
+    - Mapbox-iOS-SDK
+    - MapboxAccounts
+    - MapboxCoreNavigation
+    - MapboxDirections
+    - MapboxMobileEvents
+    - MapboxNavigation
+    - MapboxNavigationNative
+    - MapboxSpeech
+    - nanopb
+    - Polyline
+    - PromisesObjC
+    - Solar
+    - Toast
+    - Turf
+
+EXTERNAL SOURCES:
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_dynamic_links:
+    :path: ".symlinks/plugins/firebase_dynamic_links/ios"
+  Flutter:
+    :path: Flutter
+  flutter_compass:
+    :path: ".symlinks/plugins/flutter_compass/ios"
+  flutter_mapbox_navigation:
+    :path: ".symlinks/plugins/flutter_mapbox_navigation/ios"
+  flutter_secure_storage:
+    :path: ".symlinks/plugins/flutter_secure_storage/ios"
+  flutter_webview_plugin:
+    :path: ".symlinks/plugins/flutter_webview_plugin/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  location:
+    :path: ".symlinks/plugins/location/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  share:
+    :path: ".symlinks/plugins/share/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+  user_location:
+    :path: ".symlinks/plugins/user_location/ios"
+
+SPEC CHECKSUMS:
+  Firebase: 26223c695fe322633274198cb19dca8cb7e54416
+  firebase_core: 91b27774a52f41f8b58484a75edf71197ac01c59
+  firebase_dynamic_links: 14bf04008446c471b5c9f6e6542e14210bf26bd5
+  FirebaseCore: 4d3c72622ce0e2106aaa07bb4b2935ba2c370972
+  FirebaseCoreDiagnostics: 35685db68b11fe7d19d2d8b557fd7e3a56ac81cc
+  FirebaseDynamicLinks: a6df95d6dbc746c2bbf7d511343cda1344e2cf70
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_compass: cbbd285cea1584c7ac9c4e0c3e1f17cbea55e855
+  flutter_mapbox_navigation: a66c99eb5caac2fba63df3284e87c23bbc998362
+  flutter_secure_storage: 7953c38a04c3fdbb00571bcd87d8e3b5ceb9daec
+  flutter_webview_plugin: ed9e8a6a96baf0c867e90e1bce2673913eeac694
+  fluttertoast: 6122fa75143e992b1d3470f61000f591a798cc58
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GoogleDataTransport: 1024b1a4dfbd7a0e92cb20d7e0a6f1fb66b449a4
+  GoogleUtilities: d866834472f1324d080496bc67ab3ce5d0d46027
+  location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
+  Mapbox-iOS-SDK: a5915700ec84bc1a7f8b3e746d474789e35b7956
+  MapboxAccounts: f9716ba2cc66013e44ef93e0e16cfa1049f3aeec
+  MapboxCoreNavigation: 2856c46bd064bb11c406ba00191d579cda424efa
+  MapboxDirections: 69dca02d780c5e506bdcc65385dd5fb77b9e90b5
+  MapboxMobileEvents: 2bc0ca2eedb627b73cf403258dce2b2fa98074a6
+  MapboxNavigation: 42bae50b0381dce317c85884ba0de38fc68a4814
+  MapboxNavigationNative: 11dc22140f4698d3f26989f2b6379dc81ef0d4c1
+  MapboxSpeech: 67a558a672dc2b6266a993f4624895f69e58d105
+  nanopb: 59221d7f958fb711001e6a449489542d92ae113e
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  Polyline: 0e9890790292741c8186201a536b6bb6a78d02dd
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  share: 0b2c3e82132f5888bccca3351c504d0003b3b410
+  Solar: 2dc6e7cc39186cb0c8228fa08df76fb50c7d8f24
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  Turf: c6bdf62d6a70c647874f295dd1cf4eefc0c3e9e6
+  url_launcher: 6fef411d543ceb26efce54b05a0a40bfd74cbbef
+  user_location: ec382950d42014e9d796513cb4a83de2e643a477
+
+PODFILE CHECKSUM: 943ec106d89a003a550dbe6e9c2cb6bf4334bce2
+
+COCOAPODS: 1.10.0
