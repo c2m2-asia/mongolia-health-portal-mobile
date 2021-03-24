@@ -1,5 +1,6 @@
 import 'dart:collection';
 
+import 'package:c2m2_mongolia/localizations/translations.dart';
 import 'package:c2m2_mongolia/main.dart';
 import 'package:c2m2_mongolia/mapfeature/FeatureHelper.dart';
 import 'package:c2m2_mongolia/mapfeature/detail_feature.dart';
@@ -246,7 +247,12 @@ class _EditPage extends State<EditPage> {
 
   Widget editMultiple(List<Selector> selector, String title, String tag) {
     final database = selector.map((e) => e.toJson()).toList();
-
+    database.forEach((element) {
+      if (Translations.of(context).currentLanguage == "mn") {
+        if (element.containsKey("label"))
+          element.update("label", (value) => (element.values.last["mn"]));
+      }
+    });
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: new MultiSelectFormField(
@@ -293,9 +299,16 @@ class _EditPage extends State<EditPage> {
       },
       items: <Selector>[...selector]
           .map<DropdownMenuItem<String>>((Selector value) {
+        String label = value.labelLocale != null
+            ? Translations.of(context).currentLanguage.toString() == "en"
+                ? value.labelLocale.en
+                : value.labelLocale.mn != null
+                    ? value.labelLocale.mn
+                    : value.label
+            : value.label;
         return DropdownMenuItem<String>(
           value: value.osmValue,
-          child: Text(value.label),
+          child: Text(label),
         );
       }).toList(),
     );
