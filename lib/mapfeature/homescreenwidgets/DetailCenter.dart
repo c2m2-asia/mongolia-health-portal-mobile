@@ -1,3 +1,4 @@
+import 'package:c2m2_mongolia/localizations/translations.dart';
 import 'package:c2m2_mongolia/mapfeature/detail_feature.dart';
 import 'package:c2m2_mongolia/models/bookmark_model.dart';
 import 'package:c2m2_mongolia/state/app_state.dart';
@@ -59,7 +60,7 @@ class _DetailCenter extends State<DetailCenter> {
                 String url = "tel:" + widget.infoDetail.phone.first;
                 _onCall(url.replaceAll(RegExp(' '), ''));
               },
-              child: _buildButtonColumn(color, Icons.call, 'CALL'),
+              child: _buildButtonColumn(color, Icons.call, Translations.of(context).text("call")),
             ),
           GestureDetector(
             onTap: () {
@@ -87,13 +88,13 @@ class _DetailCenter extends State<DetailCenter> {
                 }
               }
             },
-            child: _buildButtonColumn(color, Icons.near_me, 'ROUTE'),
+            child: _buildButtonColumn(color, Icons.near_me, Translations.of(context).text("route")),
           ),
           GestureDetector(
             onTap: () {
               _onShare(context);
             },
-            child: _buildButtonColumn(color, Icons.share, 'SHARE'),
+            child: _buildButtonColumn(color, Icons.share, Translations.of(context).text("share")),
           ),
           ValueListenableBuilder(
               valueListenable: bookmarksBox.listenable(),
@@ -115,7 +116,7 @@ class _DetailCenter extends State<DetailCenter> {
                         isAlreadyBookmarked
                             ? Icons.bookmark
                             : Icons.bookmark_border,
-                        isAlreadyBookmarked ? 'SAVED' : 'SAVE'),
+                        isAlreadyBookmarked ? Translations.of(context).text("saved") : Translations.of(context).text("save")),
                   );
                 });
               }),
@@ -130,7 +131,7 @@ class _DetailCenter extends State<DetailCenter> {
                     );
                   });
             },
-            child: _buildButtonColumn(color, Icons.star, 'ADD REVIEW'),
+            child: _buildButtonColumn(color, Icons.star, Translations.of(context).text("add_review")),
           ),
         ],
       ),

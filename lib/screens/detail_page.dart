@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:c2m2_mongolia/localizations/translations.dart';
 import 'package:c2m2_mongolia/mapfeature/FeatureHelper.dart';
 import 'package:c2m2_mongolia/mapfeature/detail_feature.dart';
 import 'package:c2m2_mongolia/mapfeature/homescreenwidgets/DetailCenter.dart';
@@ -44,16 +45,12 @@ class _DetailPage extends State<DetailPage> {
   bool isScrollable = false;
   ScrollController controller = new ScrollController();
   GlobalKey globalKey = new GlobalKey();
+  AppBar appBar;
 
   clearTextInput() {
     queryHolder.clear();
     queryText = "";
   }
-
-  AppBar appBar = AppBar(
-    title: Text("Detail"),
-    elevation: 0.0,
-  );
 
   _afterLayout() async {
     WidgetsBinding.instance.addPostFrameCallback((_) async {
@@ -71,6 +68,10 @@ class _DetailPage extends State<DetailPage> {
 
   @override
   Widget build(BuildContext context) {
+    appBar = AppBar(
+      title: Text(Translations.of(context).text("detail")),
+      elevation: 0.0,
+    );
     return Consumer(builder: (context, watch, child) {
       var provider = watch(reviewProvider);
       if (provider.response != null) {
@@ -103,7 +104,7 @@ class _DetailPage extends State<DetailPage> {
                       SliverToBoxAdapter(
                         child: Container(
                           child: Text(
-                            "Features",
+                            Translations.of(context).text("features"),
                             style: TextStyle(
                                 fontSize: 18, fontWeight: FontWeight.bold),
                           ),
@@ -134,7 +135,7 @@ class _DetailPage extends State<DetailPage> {
                         SliverToBoxAdapter(
                           child: Container(
                             child: Text(
-                              "Reviews",
+                              Translations.of(context).text("reviews"),
                               style: TextStyle(
                                   fontSize: 18, fontWeight: FontWeight.bold),
                             ),
@@ -239,7 +240,7 @@ class _DetailPage extends State<DetailPage> {
                         padding: EdgeInsets.only(top: 5),
                         child: Wrap(
                           children: [
-                            Text("Service: ",
+                            Text(Translations.of(context).text("service_received"),
                                 style: TextStyle(
                                     fontSize: 14.0,
                                     color: AppColors.textSecondary)),

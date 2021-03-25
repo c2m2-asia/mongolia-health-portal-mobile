@@ -38,7 +38,7 @@ class _FilterByAdminBoundaryState extends State<FilterByAdminBoundary> {
           children: [
             Padding(
               padding: const EdgeInsets.only(bottom: 16.0),
-              child: Text("Select Location"),
+              child: Text(Translations.of(context).text("select_location")),
             ),
             Row(
               children: [
@@ -51,7 +51,7 @@ class _FilterByAdminBoundaryState extends State<FilterByAdminBoundary> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      "District",
+                      Translations.of(context).text("district"),
                       style: TextStyle(color: AppColors.textSecondary),
                     ),
                     SizedBox(
@@ -105,7 +105,7 @@ class _FilterByAdminBoundaryState extends State<FilterByAdminBoundary> {
           height: 8.0,
         ),
         Text(
-          "Khoroo",
+          Translations.of(context).text("khoroo"),
           style: TextStyle(color: AppColors.textSecondary),
         ),
         SizedBox(
@@ -143,7 +143,7 @@ class _FilterByAdminBoundaryState extends State<FilterByAdminBoundary> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "Province",
+          Translations.of(context).text("province"),
           style: TextStyle(color: AppColors.textSecondary),
         ),
         SizedBox(

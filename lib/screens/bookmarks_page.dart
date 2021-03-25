@@ -1,3 +1,4 @@
+import 'package:c2m2_mongolia/localizations/translations.dart';
 import 'package:c2m2_mongolia/mapfeature/FeatureHelper.dart';
 import 'package:c2m2_mongolia/models/bookmark_model.dart';
 import 'package:c2m2_mongolia/state/app_state.dart';
@@ -18,7 +19,7 @@ class _BookmarksPageState extends State<BookmarksPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Bookmarks"),
+          title: Text(Translations.of(context).text("bookmarks_page_title")),
           elevation: 0.0,
         ),
         body: buildListView());
@@ -32,7 +33,7 @@ class _BookmarksPageState extends State<BookmarksPage> {
           _inventoryList = box.values.toList();
           if (_inventoryList.isEmpty)
             return Center(
-              child: Text("No bookmarks added!"),
+              child: Text(Translations.of(context).text("no_bookmarks_added")),
             );
           return Consumer(builder: (context, watch, child) {
             return Container(
@@ -105,13 +106,13 @@ class _BookmarksPageState extends State<BookmarksPage> {
   showAlertDialog(BuildContext context, String osmID, box) {
     // Create button
     Widget cancelButton = FlatButton(
-      child: Text("Cancel"),
+      child: Text(Translations.of(context).text("cancel")),
       onPressed: () {
         Navigator.pop(context);
       },
     );
     Widget okButton = FlatButton(
-      child: Text("OK"),
+      child: Text(Translations.of(context).text("ok")),
       onPressed: () {
         box.delete(osmID);
         Navigator.pop(context);
@@ -119,8 +120,8 @@ class _BookmarksPageState extends State<BookmarksPage> {
     );
     // Create AlertDialog
     AlertDialog alert = AlertDialog(
-      title: Text("Alert!"),
-      content: Text("Are you sure you want to remove this from the bookmarks?"),
+      title: Text(Translations.of(context).text("alert")),
+      content: Text(Translations.of(context).text("remove_bookmark_alert")),
       actions: [
         cancelButton,
         okButton,

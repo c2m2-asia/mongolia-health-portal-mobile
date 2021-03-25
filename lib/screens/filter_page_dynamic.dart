@@ -65,7 +65,7 @@ class _DynamicFilterPageState extends State<DynamicFilterPage> {
                   onPressed: () {
                     resetFilters();
                   },
-                  child: Text("RESET",
+                  child: Text(Translations.of(context).text(Strings.FILTER_PAGE_RESET_BUTTON),
                       style: TextStyle(
                         fontSize: 18.0,
                       ))),
@@ -78,8 +78,8 @@ class _DynamicFilterPageState extends State<DynamicFilterPage> {
               SliverToBoxAdapter(
                   child: addDescription(
                       _featureTypeValue == Strings.featureHealthServices
-                          ? Strings.filterHealthServicesDescription
-                          : Strings.filterPharmacyDescription)),
+                          ? Translations.of(context).text("filter_health_services_description")
+                          : Translations.of(context).text("filter_pharmacy_description"))),
               if (boundaryResponse != null)
                 SliverToBoxAdapter(
                   child: FilterByAdminBoundary(),
@@ -117,7 +117,7 @@ class _DynamicFilterPageState extends State<DynamicFilterPage> {
                 }
               },
               style: ElevatedButton.styleFrom(primary: AppColors.primary),
-              child: Text('APPLY FILTERS'),
+              child: Text(Translations.of(context).text("filter_page_apply_title")),
             ),
           ),
         ),

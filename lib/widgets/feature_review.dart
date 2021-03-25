@@ -1,7 +1,11 @@
+import 'package:c2m2_mongolia/localizations/translations.dart';
 import 'package:c2m2_mongolia/mapfeature/detail_feature.dart';
+import 'package:c2m2_mongolia/models/feature_filter_tags.dart' as filter_tags;
+import 'package:c2m2_mongolia/models/feature_tags.dart' as feature_tags;
 import 'package:c2m2_mongolia/screens/filter_page.dart';
 import 'package:c2m2_mongolia/state/app_state.dart';
 import 'package:c2m2_mongolia/ui/app_colors.dart';
+import 'package:c2m2_mongolia/ui/strings.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
@@ -23,6 +27,8 @@ class _FeatureReviewState extends State<FeatureReview> {
   double rating;
   String userName, serviceReceived;
   String feedback;
+  filter_tags.FilterTags filterTags;
+  var filterProvider;
 
   @override
   void initState() {
@@ -30,7 +36,19 @@ class _FeatureReviewState extends State<FeatureReview> {
     _isButtonDisabled = true;
     rating = 0;
     userName = "Anonymous";
+    loadTags();
     super.initState();
+  }
+
+  loadTags() async {
+    filterProvider = context.read(filterTagsProvider);
+    if (filterProvider.response == null) {
+      await filterProvider.getFilterTags();
+      if (filterProvider.error != null) {
+      } else {
+        filterTags = filterProvider.response;
+      }
+    }
   }
 
   @override
@@ -55,7 +73,7 @@ class _FeatureReviewState extends State<FeatureReview> {
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
             Text(
-              'Rate this feature',
+              Translations.of(context).text("rate_this_feature"),
               style: label,
             ),
             SizedBox(height: 16.0),
@@ -70,11 +88,11 @@ class _FeatureReviewState extends State<FeatureReview> {
             _buildUserName(),
             SizedBox(height: 12.0),
             Text(
-              "To add a review, please rate, mention the service received and write a comment below and click on the submit button.",
+              Translations.of(context).text("review_ratings_helper_text"),
               style: subtitle,
             ),
             SizedBox(height: 20.0),
-            _buildServiceView(),
+            _buildServiceViewNew(),
             SizedBox(height: 8.0),
             _buildReview(),
           ],
@@ -84,7 +102,7 @@ class _FeatureReviewState extends State<FeatureReview> {
         // usually buttons at the bottom of the dialog
         new FlatButton(
           child: new Text(
-            "Cancel",
+            Translations.of(context).text("cancel"),
             style: TextStyle(color: AppColors.textPrimary),
           ),
           onPressed: () {
@@ -93,7 +111,7 @@ class _FeatureReviewState extends State<FeatureReview> {
           },
         ),
         new FlatButton(
-          child: new Text("Submit"),
+          child: new Text(Translations.of(context).text("submit")),
           onPressed: _isButtonDisabled
               ? null
               : () {
@@ -129,7 +147,7 @@ class _FeatureReviewState extends State<FeatureReview> {
     return SnackBar(
       content: Text('Something went wrong. Please try again later. $error'),
       action: SnackBarAction(
-        label: 'Retry',
+        label: Translations.of(context).text("retry"),
         onPressed: () {
           submit();
         },
@@ -139,7 +157,7 @@ class _FeatureReviewState extends State<FeatureReview> {
 
   SnackBar successSnack() {
     return SnackBar(
-      content: Text('Review updated successfully.'),
+      content: Text(Translations.of(context).text("review_updated")),
     );
   }
 
@@ -155,7 +173,7 @@ class _FeatureReviewState extends State<FeatureReview> {
             // controller: queryHolder,
             decoration: InputDecoration(
                 border: InputBorder.none,
-                hintText: "Your display name (Optional)"),
+                hintText: Translations.of(context).text("display_name")),
             cursorColor: AppColors.primary,
             onChanged: (text) {
               userName = text.trim().isNotEmpty ? text : "Anonymous";
@@ -168,10 +186,32 @@ class _FeatureReviewState extends State<FeatureReview> {
       );
   }
 
-  Widget _buildServiceView() {
+  Widget _buildServiceViewNew() {
     return Consumer(builder: (context, watch, child) {
-      List<FilterType> categories = context.read(filterTypesProvider).value;
-      final database = categories.map((e) => e.toJson()).toList();
+      final filterTagsValue = watch(filterTagsProvider);
+      List<feature_tags.Selector> selector = <feature_tags.Selector>[];
+      if (filterTagsValue.isLoading)
+        print("Loading");
+      else if (filterTagsValue.response != null &&
+          filterTagsValue.response.data != null) {
+        for (filter_tags.Datum datum in filterTagsValue.response.data) {
+          if (datum.value == "healthService")
+            for (feature_tags.EditTag editTag in datum.filterTags)
+              if (editTag.osmTag == Strings.filterByType) {
+                selector = editTag.selectors;
+                break;
+              }
+        }
+      }
+      final database = selector.map((e) => e.toJson()).toList();
+      database.forEach((element) {
+        print("database $element");
+        if (Translations.of(context).currentLanguage == "mn") {
+          if (element.containsKey("label"))
+            element.update("label", (value) => (element.values.last["mn"]));
+        }
+      });
+
       String selectedService = watch(filterTypesProvider).selectedService;
       if (selectedService != null) serviceReceived = selectedService;
       return Container(
@@ -193,14 +233,14 @@ class _FeatureReviewState extends State<FeatureReview> {
                 dialogShapeBorder: RoundedRectangleBorder(
                     borderRadius: BorderRadius.all(Radius.circular(10.0))),
                 title: Text(
-                  "Service Received",
+                  Translations.of(context).text("service_received"),
                   style: TextStyle(fontSize: 16),
                 ),
                 dataSource: database,
-                textField: 'title',
-                valueField: 'title',
-                okButtonLabel: 'OK',
-                cancelButtonLabel: 'CANCEL',
+                textField: 'label',
+                valueField: 'osm_value',
+                okButtonLabel: Translations.of(context).text("ok"),
+                cancelButtonLabel: Translations.of(context).text("cancel"),
                 onSaved: (value) {
                   context
                       .read(filterTypesProvider)
@@ -208,22 +248,6 @@ class _FeatureReviewState extends State<FeatureReview> {
                 },
               ),
             ),
-            // child: Padding(
-            //   padding: const EdgeInsets.symmetric(horizontal: 8.0),
-            //   child: DropdownButtonHideUnderline(
-            //       child: DropdownButton(
-            //           isExpanded: true,
-            //           value: selectedFilter,
-            //           items: categories.map((item) {
-            //             return DropdownMenuItem(
-            //               value: item,
-            //               child: Text(item.title),
-            //             );
-            //           }).toList(),
-            //           onChanged: (selectedItem) => context
-            //               .read(filterTypesProvider)
-            //               .toggle(selectedItem))),
-            // ),
           ),
         ],
       ));
@@ -262,7 +286,7 @@ class _FeatureReviewState extends State<FeatureReview> {
           // controller: queryHolder,
           decoration: InputDecoration(
               border: InputBorder.none,
-              hintText: 'Write what you think about this feature...'),
+              hintText: Translations.of(context).text("write_about_feature")),
           cursorColor: AppColors.primary,
           maxLines: 3,
           onChanged: (text) {

@@ -46,7 +46,7 @@ class Strings {
   static const String APP_NAME = "app_name";
   static const String SEARCH_PAGE_TITLE = "search_page_title";
 
-  // static const String APP_NAME="app_name";
   static const String FILTER_PAGE_TITLE = "filter_page_title";
   static const String FILTER_BY_CATEGORY_TITLE = "filter_by_category_title";
+  static const String FILTER_PAGE_RESET_BUTTON = "filter_page_reset_title";
 }

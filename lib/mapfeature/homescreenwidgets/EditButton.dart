@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:c2m2_mongolia/localizations/translations.dart';
 import 'package:c2m2_mongolia/mapfeature/osm_oauth2.dart';
 import 'package:c2m2_mongolia/screens/edit_page.dart';
 import 'package:c2m2_mongolia/state/app_state.dart';
@@ -84,7 +85,6 @@ class _SheetButtonState extends State<EditButton> with WidgetsBindingObserver{
         // width: 250,
           height: 56,
           alignment: Alignment.center,
-          // margin: EdgeInsets.only(left:12.0,right: 12.0,bottom: 12.0,top: 8.0),
           child: RaisedButton.icon(
             color: Theme
                 .of(context)
@@ -99,14 +99,13 @@ class _SheetButtonState extends State<EditButton> with WidgetsBindingObserver{
                  loadTags();
                  Navigator.push(context, MaterialPageRoute(builder: (context) =>
                 EditPage(widget.titleDetail, widget.infoDetail, widget.list, widget.fromEdit, widget.myPosition)));
-                // osmClient.loadOsmFeature(widget.infoDetail.osmID);
               }
               // Navigator.push(context, MaterialPageRoute(builder: (context) => DetailPage(widget.titleDetail, widget.infoDetail, widget.list)));
             },
             shape: new RoundedRectangleBorder(
               borderRadius: new BorderRadius.circular(4.0),
             ),
-            label: isLoggedIn ? Text("Suggest An Edit") : Text("Login To Edit"),
+            label: isLoggedIn ? Text(Translations.of(context).text("suggest_an_edit")) : Text(Translations.of(context).text("login_to_edit")),
             textColor: Colors.white,
             icon: isLoggedIn ? Icon(
               Icons.edit,

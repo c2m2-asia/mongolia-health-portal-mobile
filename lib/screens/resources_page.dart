@@ -1,3 +1,4 @@
+import 'package:c2m2_mongolia/localizations/translations.dart';
 import 'package:c2m2_mongolia/models/resources_response.dart';
 import 'package:c2m2_mongolia/state/app_state.dart';
 import 'package:c2m2_mongolia/ui/app_colors.dart';
@@ -22,7 +23,7 @@ class _ResourcesPageState extends State<ResourcesPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Resources"),
+          title: Text(Translations.of(context).text("resources_page_title")),
           elevation: 0.0,
         ),
         body: buildListView());

@@ -246,7 +246,6 @@ class FilterByAdminBoundaryNotifier extends ChangeNotifier {
   }
 
   void removeAll() {
-    print("remove all $boundaryList");
     if (boundaryList.isNotEmpty) selectedDistrict = districtList.first;
     khorooList.clear();
     notifyListeners();
