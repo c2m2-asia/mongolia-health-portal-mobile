@@ -65,7 +65,7 @@ class _DynamicFilterPageState extends State<DynamicFilterPage> {
                   onPressed: () {
                     resetFilters();
                   },
-                  child: Text("RESET",
+                  child: Text(Translations.of(context).text(Strings.FILTER_PAGE_RESET_BUTTON),
                       style: TextStyle(
                         fontSize: 18.0,
                       ))),
@@ -78,8 +78,8 @@ class _DynamicFilterPageState extends State<DynamicFilterPage> {
               SliverToBoxAdapter(
                   child: addDescription(
                       _featureTypeValue == Strings.featureHealthServices
-                          ? Strings.filterHealthServicesDescription
-                          : Strings.filterPharmacyDescription)),
+                          ? Translations.of(context).text("filter_health_services_description")
+                          : Translations.of(context).text("filter_pharmacy_description"))),
               if (boundaryResponse != null)
                 SliverToBoxAdapter(
                   child: FilterByAdminBoundary(),
@@ -117,7 +117,7 @@ class _DynamicFilterPageState extends State<DynamicFilterPage> {
                 }
               },
               style: ElevatedButton.styleFrom(primary: AppColors.primary),
-              child: Text('APPLY FILTERS'),
+              child: Text(Translations.of(context).text("filter_page_apply_title")),
             ),
           ),
         ),
@@ -141,10 +141,17 @@ class _DynamicFilterPageState extends State<DynamicFilterPage> {
   }
 
   Widget buildTypeChip(String osmTag, feature_tags.Selector model) {
+    String label = model.labelLocale != null
+        ? Translations.of(context).currentLanguage.toString() == "en"
+            ? model.labelLocale.en
+            : model.labelLocale.mn != null
+                ? model.labelLocale.mn
+                : model.label
+        : model.label;
     return ChoiceChip(
       labelPadding: EdgeInsets.symmetric(horizontal: 4.0),
       label: Text(
-        model.label,
+        label,
         style: TextStyle(
           color: Colors.black,
         ),
@@ -212,7 +219,6 @@ class _DynamicFilterPageState extends State<DynamicFilterPage> {
   }
 
   buildWidgetByType(filter_tags.FilterTags filterTags) {
-    print("buildWidget");
     List<Widget> widgets = <Widget>[];
     if (filterTags != null)
       for (filter_tags.Datum datum in filterTags.data) {
@@ -242,9 +248,16 @@ class _DynamicFilterPageState extends State<DynamicFilterPage> {
           widgets.add(buildSingleSelectWidget(editTag));
           break;
         case feature_tags.Type.MULTI_SELECT:
+          String label = editTag.labelLocale != null
+              ? Translations.of(context).currentLanguage.toString() == "en"
+                  ? editTag.labelLocale.en
+                  : editTag.labelLocale.mn != null
+                      ? editTag.labelLocale.mn
+                      : editTag.label
+              : editTag.label;
           widgets.add(Padding(
             padding: const EdgeInsets.only(top: 8.0),
-            child: addHeader(editTag.label),
+            child: addHeader(label),
           ));
           widgets.add(buildMultiSelectWidget(editTag));
           break;
@@ -253,6 +266,13 @@ class _DynamicFilterPageState extends State<DynamicFilterPage> {
   }
 
   Widget buildSingleSelectWidget(feature_tags.EditTag editTag) {
+    String label = editTag.labelLocale != null
+        ? Translations.of(context).currentLanguage.toString() == "en"
+            ? editTag.labelLocale.en
+            : editTag.labelLocale.mn != null
+                ? editTag.labelLocale.mn
+                : editTag.label
+        : editTag.label;
     if (editTag.selectors.isNotEmpty) {
       var _selectedItem = editTag.selectors.first;
       Map<String, feature_tags.Selector> selectedFilter;
@@ -270,7 +290,7 @@ class _DynamicFilterPageState extends State<DynamicFilterPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 addHeader(
-                  editTag.label,
+                  label,
                 ),
                 SizedBox(
                   height: 8.0,
@@ -289,9 +309,19 @@ class _DynamicFilterPageState extends State<DynamicFilterPage> {
                           isExpanded: true,
                           value: selectedFilter[editTag.osmTag],
                           items: editTag.selectors.map((item) {
+                            String label = item.labelLocale != null
+                                ? Translations.of(context)
+                                            .currentLanguage
+                                            .toString() ==
+                                        "en"
+                                    ? item.labelLocale.en
+                                    : item.labelLocale.mn != null
+                                        ? item.labelLocale.mn
+                                        : item.label
+                                : item.label;
                             return DropdownMenuItem(
                               value: item,
-                              child: Text(item.label),
+                              child: Text(label),
                             );
                           }).toList(),
                           onChanged: (selectedItem) => {

@@ -1,3 +1,4 @@
+import 'package:c2m2_mongolia/localizations/translations.dart';
 import 'package:c2m2_mongolia/mapfeature/detail_feature.dart';
 import 'package:c2m2_mongolia/mapfeature/osm_oauth2.dart';
 import 'package:c2m2_mongolia/screens/detail_page.dart';
@@ -91,7 +92,7 @@ class _DetailTop extends State<DetailTop> {
                   child: Column(
                     children: [
                       _buildRatingStar(widget.titleDetail.formatedRating()),
-                      Text('${widget.titleDetail.raters}' + " reviews"),
+                      Text('${widget.titleDetail.raters}' + " "+Translations.of(context).text("reviews")),
                     ],
                   ),
                 ),

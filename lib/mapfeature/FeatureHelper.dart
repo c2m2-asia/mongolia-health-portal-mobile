@@ -245,7 +245,6 @@ class FeatureHelper {
   static List<LatLng> parseIntoLatlngPoints(
       List<List<List<double>>> coordinates) {
     List<LatLng> items = [];
-    // print("boundary data");
     if (coordinates.isNotEmpty) {
       List<List<double>> list1 = coordinates.first;
       if (list1.isNotEmpty) {
@@ -253,7 +252,6 @@ class FeatureHelper {
           if (item.length >= 2) items.add(LatLng(item[1], item[0]));
       }
     }
-    // print("list 2 $items");
     return items;
   }
 
@@ -269,7 +267,6 @@ class FeatureHelper {
   }
 
   static Widget buildRatingStar(double rates) {
-    print("golden $rates");
     return RatingBar.builder(
       minRating: 0,
       direction: Axis.horizontal,

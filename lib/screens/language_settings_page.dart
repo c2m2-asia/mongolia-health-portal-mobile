@@ -16,7 +16,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
     radioItem = Translations.of(context).currentLanguage.toString();
     return Scaffold(
         appBar: AppBar(
-          title: Text("Language Settings"),
+          title: Text(Translations.of(context).text("language_settings_page_title")),
           elevation: 0.0,
         ),
         body: addRadioButton());
@@ -28,7 +28,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
         child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              Text("Select your preferred language"),
+              Text(Translations.of(context).text("preferred_language_selection")),
               SizedBox(
                 height: 8.0,
               ),

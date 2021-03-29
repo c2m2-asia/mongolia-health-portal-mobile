@@ -128,10 +128,12 @@ class _MyAppState extends State<MyApp> {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    // String appTitle=Translations.of(context).text("app_name");
+    String appTitle=Strings.appName;
     return new MaterialApp(
-      title: Strings.appName,
+      title: appTitle,
       theme: AppThemeDataFactory.prepareThemeData(),
-      home: MyHomePage(title: Strings.appName),
+      home: MyHomePage(title: appTitle),
       debugShowCheckedModeBanner: false,
       localizationsDelegates: [
         _localeOverrideDelegate, // register a new delegate
@@ -597,7 +599,7 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           // Here we take the value from the MyHomePage object that was created by
           // the App.build method, and use it to set our appbar title.
-          title: Text(widget.title),
+          title: Text(Translations.of(context).text("app_name")),
           actions: <Widget>[
             IconButton(
               icon: Icon(Icons.search_outlined),
@@ -632,7 +634,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ListTile(
                 selected: _drawerSelection == DrawerSelection.health,
                 leading: Icon(Icons.local_hospital_outlined),
-                title: Text('Health Services'),
+                title: Text(Translations.of(context).text("nav_drawer_health_services")),
                 onTap: () {
                   if (featureType != FeatureType.HEALTH_SERVICES) {
                     pastMarker = null;
@@ -647,7 +649,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ListTile(
                 selected: _drawerSelection == DrawerSelection.pharmacy,
                 leading: Icon(Icons.local_pharmacy_outlined),
-                title: Text('Pharmacy'),
+                title: Text(Translations.of(context).text("nav_drawer_pharmacies")),
                 onTap: () {
                   if (featureType != FeatureType.PHARMACY) {
                     pastMarker = null;
@@ -663,7 +665,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ListTile(
                 selected: _drawerSelection == DrawerSelection.bookmark,
                 leading: Icon(Icons.bookmark_border),
-                title: Text('Bookmarks'),
+                title: Text(Translations.of(context).text("bookmarks_page_title")),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.push(
@@ -675,7 +677,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ListTile(
                 selected: _drawerSelection == DrawerSelection.language,
                 leading: Icon(Icons.language),
-                title: Text('Language Settings'),
+                title: Text(Translations.of(context).text("language_settings_page_title")),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.push(
@@ -688,7 +690,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ListTile(
                 selected: _drawerSelection == DrawerSelection.about,
                 leading: Icon(Icons.list),
-                title: Text('Resources'),
+                title: Text(Translations.of(context).text("resources_page_title")),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.push(
@@ -700,7 +702,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ListTile(
                 selected: _drawerSelection == DrawerSelection.about,
                 leading: Icon(Icons.info_outline),
-                title: Text('About Us'),
+                title: Text(Translations.of(context).text("about_us_page_title")),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.push(

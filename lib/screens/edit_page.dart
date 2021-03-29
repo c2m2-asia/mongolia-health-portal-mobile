@@ -1,5 +1,6 @@
 import 'dart:collection';
 
+import 'package:c2m2_mongolia/localizations/translations.dart';
 import 'package:c2m2_mongolia/main.dart';
 import 'package:c2m2_mongolia/mapfeature/FeatureHelper.dart';
 import 'package:c2m2_mongolia/mapfeature/detail_feature.dart';
@@ -102,7 +103,7 @@ class _EditPage extends State<EditPage> {
                               SliverToBoxAdapter(
                                 child: Container(
                                   child: Text(
-                                    "Edit",
+                                    Translations.of(context).text("edit"),
                                     style: TextStyle(
                                         fontSize: 18,
                                         fontWeight: FontWeight.bold),
@@ -132,7 +133,7 @@ class _EditPage extends State<EditPage> {
                                           borderRadius:
                                               new BorderRadius.circular(4.0),
                                         ),
-                                        label: Text("Apply Edit"),
+                                        label: Text(Translations.of(context).text("submit_changes")),
                                         textColor: Colors.white,
                                         icon: Icon(
                                           Icons.edit_attributes_outlined,
@@ -158,7 +159,7 @@ class _EditPage extends State<EditPage> {
   }
 
   onEdit() async {
-    showToast("Please wait! You will be notified when changes are uploaded.");
+    showToast(Translations.of(context).text("please_wait_edit"));
     XmlDocument xmlDocument =
         await osmClient.loadOsmFeature(widget.infoDetail.osmID);
     final type = widget.infoDetail.osmID.split("/")[0];
@@ -170,10 +171,10 @@ class _EditPage extends State<EditPage> {
     final res = await osmClient.requestEdit(changes, widget.infoDetail.osmID);
     var n = int.tryParse(res) ?? -1;
     if (n == -1) {
-      showToast("Something went wrong try again later.");
+      showToast(Translations.of(context).text("something_went_wrong"));
     } else {
       showToast(
-          "Successfully applied changes to OSM. Changes will be reflected within 24 hour.");
+          Translations.of(context).text("successful_edit"));
     }
   }
 
@@ -246,7 +247,12 @@ class _EditPage extends State<EditPage> {
 
   Widget editMultiple(List<Selector> selector, String title, String tag) {
     final database = selector.map((e) => e.toJson()).toList();
-
+    database.forEach((element) {
+      if (Translations.of(context).currentLanguage == "mn") {
+        if (element.containsKey("label"))
+          element.update("label", (value) => (element.values.last["mn"]));
+      }
+    });
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: new MultiSelectFormField(
@@ -263,8 +269,8 @@ class _EditPage extends State<EditPage> {
         dataSource: database,
         textField: 'label',
         valueField: 'osm_value',
-        okButtonLabel: 'OK',
-        cancelButtonLabel: 'CANCEL',
+        okButtonLabel: Translations.of(context).text("ok"),
+        cancelButtonLabel: Translations.of(context).text("cancel"),
         onSaved: (value) {
           setState(() {
             _myValues[tag] = [...value];
@@ -293,9 +299,16 @@ class _EditPage extends State<EditPage> {
       },
       items: <Selector>[...selector]
           .map<DropdownMenuItem<String>>((Selector value) {
+        String label = value.labelLocale != null
+            ? Translations.of(context).currentLanguage.toString() == "en"
+                ? value.labelLocale.en
+                : value.labelLocale.mn != null
+                    ? value.labelLocale.mn
+                    : value.label
+            : value.label;
         return DropdownMenuItem<String>(
           value: value.osmValue,
-          child: Text(value.label),
+          child: Text(label),
         );
       }).toList(),
     );

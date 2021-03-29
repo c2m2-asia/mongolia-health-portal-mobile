@@ -1,3 +1,4 @@
+import 'package:c2m2_mongolia/localizations/translations.dart';
 import 'package:c2m2_mongolia/mapfeature/osm_oauth2.dart';
 import 'package:c2m2_mongolia/screens/detail_page.dart';
 import 'package:flutter/cupertino.dart';
@@ -42,7 +43,7 @@ class _SheetButtonState extends State<LoadMoreButton> {
           shape: new RoundedRectangleBorder(
             borderRadius: new BorderRadius.circular(4.0),
           ),
-          label: Text("Load more"),
+          label: Text(Translations.of(context).text("load_more")),
           textColor: Colors.white,
           icon: Icon(
             Icons.arrow_right,

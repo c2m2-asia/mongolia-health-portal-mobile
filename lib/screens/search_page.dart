@@ -65,7 +65,7 @@ class _SearchDataState extends State<SearchData> {
                   _searchData(text);
               },
               decoration: InputDecoration(
-                hintText: "your query here...",
+                hintText: Translations.of(context).text("type_your_query_here"),
                 hintStyle: TextStyle(color: Colors.black38, fontSize: 16),
                 prefixIcon: Material(
                   elevation: 0.0,
@@ -104,8 +104,6 @@ class _SearchDataState extends State<SearchData> {
                   separatorBuilder: (BuildContext context, int index) =>
                       Divider(),
                   itemBuilder: (context, index) {
-                    print("search rsponse");
-                    print(tempList[index].toString());
                     return buildListTile(tempList[index]);
                   }));
     });
